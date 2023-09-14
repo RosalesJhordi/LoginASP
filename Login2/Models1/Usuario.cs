@@ -1,4 +1,4 @@
-﻿namespace Login2.Models
+﻿namespace Login2.Models1
 {
     public class Usuario
     {

@@ -10,11 +10,12 @@
     <meta name="viewport" content="width=device-width" />
     <title>Registrar</title>
 	<link href="~/css/login.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 	<div class="form-container">
 		<p class="title">Registrar</p>
-		<form class="form" action="@Url.Action("Registrar","AccesoController1")" method="post">
+		<form class="form" action="@Url.Action("Registrar","Home")" method="post">
 			<div class="input-group">
 				<label for="Nombres">Nombres</label>
 				<input type="text" name="Nombres" id="Nombres" placeholder="">
@@ -31,6 +32,16 @@
 				<label for="Contraseña">Contraseña</label>
 				<input type="password" name="Contrasena" id="Contrasena" placeholder="">
 			</div>
+			<div class="input-group">
+				<label for="Confirmar ">Confirmar Contraseña</label>
+				<input type="password" name="Confirmar " id="Confirmar " placeholder="">
+			</div>
+			@if (ViewData["Mensaje"] != null)
+			{
+				<div class="alert alert-danger" role="alert">
+					@ViewData["Mensaje"]
+				</div>
+			}
 			<button type="submit" class="sign">Registrar</button>
 		</form>
 	</div>

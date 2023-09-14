@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cGC68HZJapwJlDJ0KFPDoYtUmB6PzgI6rs6LTA0b5q4=",
+  "Hash": "7SRimvyrS+amWnwEBzf5oH/j4lglbeRzfPmGxP4NWz0=",
   "Source": "Login2",
   "BasePath": "_content/Login2",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\LoginASP.NET\\Login2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Login2.styles.css",
-      "SourceId": "Login2",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\LoginASP.NET\\Login2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Login2",
-      "RelativePath": "Login2.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\LoginASP.NET\\Login2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Login2.styles.css"
-    },
-    {
-      "Identity": "C:\\LoginASP.NET\\Login2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Login2.bundle.scp.css",
-      "SourceId": "Login2",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\LoginASP.NET\\Login2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Login2",
-      "RelativePath": "Login2.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\LoginASP.NET\\Login2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Login2.bundle.scp.css"
-    },
     {
       "Identity": "C:\\LoginASP.NET\\Login2\\wwwroot\\css\\Login.css",
       "SourceId": "Login2",

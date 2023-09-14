@@ -1,4 +1,5 @@
 ﻿using Login2.Models;
+using Login2.Models1;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -21,6 +22,7 @@ namespace Login2.Controllers
 		{
 			return View();
 		}
+
 
 		public IActionResult Privacy()
         {

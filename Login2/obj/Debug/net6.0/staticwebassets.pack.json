@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\LoginASP.NET\\Login2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Login2.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Login2.bundle.scp.css"
-    },
-    {
       "Id": "C:\\LoginASP.NET\\Login2\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },

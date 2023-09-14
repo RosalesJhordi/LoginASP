@@ -10,11 +10,12 @@
     <meta name="viewport" content="width=device-width" />
     <title>Login</title>
     <link href="~/css/login.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 	<div class="form-container">
 		<p class="title">Login</p>
-		<form class="form" action="@Url.Action("Login","AccesoController1")" method="post">
+		<form class="form" action="@Url.Action("Index","Home")" method="post">
 			<div class="input-group">
 				<label for="correo">correo</label>
 				<input type="text" name="Correo" id="Correo" placeholder="">
@@ -28,6 +29,12 @@
 			</div>
 			<button type="submit" class="sign">Login</button>
 		</form>
+		@if (ViewData["Mensaje"] != null)
+		{
+			<div class="alert alert-danger" role="alert">
+				@ViewData["Mensaje"]
+			</div>
+		}
 		<div class="social-message">
 			<div class="line"></div>
 			<p class="message">Iniciar con</p>

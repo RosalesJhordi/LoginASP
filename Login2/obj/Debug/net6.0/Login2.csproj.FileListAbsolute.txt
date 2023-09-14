@@ -220,9 +220,7 @@ C:\LoginASP.NET\Login2\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.
 C:\LoginASP.NET\Login2\obj\Debug\net6.0\staticwebassets.pack.json
 C:\LoginASP.NET\Login2\obj\Debug\net6.0\staticwebassets.build.json
 C:\LoginASP.NET\Login2\obj\Debug\net6.0\staticwebassets.development.json
-C:\LoginASP.NET\Login2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\LoginASP.NET\Login2\obj\Debug\net6.0\scopedcss\bundle\Login2.styles.css
-C:\LoginASP.NET\Login2\obj\Debug\net6.0\scopedcss\projectbundle\Login2.bundle.scp.css
 C:\LoginASP.NET\Login2\obj\Debug\net6.0\Login2.csproj.CopyComplete
 C:\LoginASP.NET\Login2\obj\Debug\net6.0\Login2.dll
 C:\LoginASP.NET\Login2\obj\Debug\net6.0\refint\Login2.dll
