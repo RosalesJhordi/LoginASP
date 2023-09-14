@@ -4,7 +4,6 @@ using Login.Models;
 using System.Text;
 using System.Security.Cryptography;
 using System.Data.SqlClient;
-using System.Data;
 
 namespace Login.Controllers
 {
@@ -85,7 +84,7 @@ namespace Login.Controllers
             }
             if(oUsuario.Id != 0)
             {
-                Session["usuario"] = oUsuario;
+                //Session["usuario"] = oUsuario;
                 return RedirectToAction("Index", "Home");
             }
             else
